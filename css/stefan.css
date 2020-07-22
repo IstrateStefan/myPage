@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 17rem;
+    text-align: center;
+    background-color: #03396c;
+}
+
+.title  a {
+    text-decoration: none;
+    color: #0570b5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab a:hover {
+    color:#b3cde0;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.content {
+    position: absolute;
+    left: 300px;
+    top: 25vh;
+    display: none;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab:target .content {
+    display: block;
+}
+
+.content .name {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.content h3 span {
+    color: #03396c;
+}
+
+.content .description {
+    margin-left: 3rem;
+    text-align: justify;
+    max-width: 80%;
+    min-width: 30%;
+}
+
+
+progress {
+    height: 2rem;
+    width: 100%;
+}
+
+.skills {
+    position: absolute;
+    text-align: center;
+    top: -15vh;
+    width: 60vh;
+    left: 50vh;
+}
+
+.skills div {
+    padding: 15px;
+}
+
+.contact {
+    text-align: center;
+    width: 80%;
+}
